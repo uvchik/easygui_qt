@@ -3,6 +3,12 @@
 EasyGUI_Qt
 ===============================
 
+---------------------------------------------
+
+**Note:** This fork is made to adapt easygui_qt to qt5 but I cannot test the backward compatibility with qt4. Therefore I cannot make a pullrequest to the original repository.
+
+---------------------------------------------
+
 *Inspired by EasyGUI, designed for PyQt*
 
 .. image:: https://raw.githubusercontent.com/aroberge/easygui_qt/master/images/contribute.png
