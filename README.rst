@@ -15,7 +15,7 @@ This fork is made to adapt easygui_qt to qt5 but I cannot test the backward comp
 
 **List of changes:**
 
-  * Adaption of :code:`get_file_names()`
+* Adaption of :code:`get_file_names()`
 
 ---------------------------------------------
 
