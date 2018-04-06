@@ -5,7 +5,11 @@ EasyGUI_Qt
 
 ---------------------------------------------
 
-**Note:** This fork is made to adapt easygui_qt to qt5 but I cannot test the backward compatibility with qt4. Therefore I cannot make a pullrequest to the original repository.
+**Note:** This fork is made to adapt easygui_qt to qt5 but I cannot test the backward compatibility with qt4. Therefore I cannot make a pullrequest to the original repository. Use the following command to install easygui_qt5:
+
+.. code::
+
+    pip install git+https://github.com/uvchik/easygui_qt5
 
 ---------------------------------------------
 
@@ -59,7 +63,7 @@ answer, and return the provided answer as a string.  Thus
 Similarly, instead of using a ``print()`` function to display a message,
 ``show_message()`` is used which pops a message window; however, note that
 unlike ``print``, ``show_message`` interrupts the flow of the program
-and require some interaction from the user for the program to 
+and require some interaction from the user for the program to
 continue.
 
 Unlike the original EasyGUI, which sometimes used cryptic names like
