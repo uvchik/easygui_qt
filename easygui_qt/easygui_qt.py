@@ -64,7 +64,7 @@ __all__ = [
     'get_language',
     'set_language',
     'get_abort',
-    'show_message',    
+    'show_message',
     'show_file',
     'show_text',
     'show_code',
@@ -423,7 +423,7 @@ def get_int(message="Choose a number", title="Title",
     else:
         number, ok = dialog.getInt(None, title, message,
                                    default_value, min_, max_, step,
-                                   flags)      
+                                   flags)
     dialog.destroy()
     app.quit()
     if ok:
@@ -836,7 +836,7 @@ def show_file(file_name=None, title="Title", file_type="text"):
     editor.show()
     app.exec_()
 
-    
+
 def show_text(title="Title", text=""):
     '''Displays some text in a window.
 
@@ -854,7 +854,7 @@ def show_text(title="Title", text=""):
     editor.show()
     app.exec_()
 
-    
+
 def show_code(title="Title", text=""):
     '''Displays some text in a window, in a monospace font.
 
@@ -872,7 +872,7 @@ def show_code(title="Title", text=""):
     editor.show()
     app.exec_()
 
-    
+
 def show_html(title="Title", text=""):
     '''Displays some html text in a window.
 
@@ -890,7 +890,7 @@ def show_html(title="Title", text=""):
     editor.show()
     app.exec_()
 
-    
+
 def get_abort(message="Major problem - or at least we think there is one...",
               title="Major problem encountered!"):
     '''Displays a message about a problem.
