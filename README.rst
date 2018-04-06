@@ -5,11 +5,17 @@ EasyGUI_Qt
 
 ---------------------------------------------
 
-**Note:** This fork is made to adapt easygui_qt to qt5 but I cannot test the backward compatibility with qt4. Therefore I cannot make a pullrequest to the original repository. Use the following command to install easygui_qt5:
+**Note:**
+
+This fork is made to adapt easygui_qt to qt5 but I cannot test the backward compatibility with qt4. Therefore I cannot make a pullrequest to the original repository. Use the following command to install easygui_qt5:
 
 .. code::
 
     pip install git+https://github.com/uvchik/easygui_qt5
+
+**List of changes:**
+
+  * Adaption of :code:`get_file_names()`
 
 ---------------------------------------------
 
