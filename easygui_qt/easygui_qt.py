@@ -742,14 +742,14 @@ def get_file_names(title="Get existing file names"):
     '''
     app = SimpleApp()
     if sys.version_info < (3,):
-        files = qt_widgets.QFileDialog.getOpenFileNames(None, title, os.getcwd(),
-                                               "All Files (*.*)")
+        files = qt_widgets.QFileDialog.getOpenFileNames(
+            None, title, os.getcwd(), "", "All Files (*.*)")
         files = [unicode(item) for item in files]
     else:
         options = qt_widgets.QFileDialog.Options()
         options |= qt_widgets.QFileDialog.DontUseNativeDialog
-        files = qt_widgets.QFileDialog.getOpenFileNames(None, title, os.getcwd(),
-                                               "All Files (*.*)", options)
+        files = qt_widgets.QFileDialog.getOpenFileNames(
+            None, title, os.getcwd(), "", "All Files (*.*)", options)
     app.quit()
     return files
 
